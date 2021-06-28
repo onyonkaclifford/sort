@@ -10,7 +10,7 @@ By Alex Bewley
 
 SORT is a barebones implementation of a visual multiple object tracking framework based on rudimentary data association and state estimation techniques. It is designed for online tracking applications where only past and current frames are available and the method produces object identities on the fly. While this minimalistic tracker doesn't handle occlusion or re-entering objects its purpose is to serve as a baseline and testbed for the development of future trackers.
 
-SORT was initially described in [this paper](http://arxiv.org/abs/1602.00763). At the time of the initial publication, SORT was ranked the best *open source* multiple object tracker on the [MOT benchmark](https://motchallenge.net/results/2D_MOT_2015/).
+SORT was initially described in [this paper](http://arxiv.org/abs/1602.00763). At the time of the initial publication, SORT was ranked the best *open source* multiple object tracker on the [MOT benchmark](https://motchallenge.net/data/MOT15/).
 
 **Note:** A significant proportion of SORT's accuracy is attributed to the detections.
 For your convenience, this repo also contains *Faster* RCNN detections for the MOT benchmark sequences in the [benchmark format](https://motchallenge.net/instructions/). To run the detector yourself please see the original [*Faster* RCNN project](https://github.com/ShaoqingRen/faster_rcnn) or the python reimplementation of [py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn) by Ross Girshick.
@@ -56,7 +56,7 @@ $ python sort.py
 
 To display the results you need to:
 
-1. Download the [2D MOT 2015 benchmark dataset](https://motchallenge.net/data/2D_MOT_2015/#download)
+1. Download the [2D MOT 2015 benchmark dataset](https://motchallenge.net/data/MOT15/#download)
 0. Create a symbolic link to the dataset
   ```
   $ ln -s /path/to/MOT2015_challenge/data/2DMOT2015 mot_benchmark
