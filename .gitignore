@@ -1,2 +1,14 @@
+#  IDEs
+.idea/
+.spyproject/
+
+# Pycache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Miscellaneous
 output/
-mot_benchmark
+mot_benchmark/
